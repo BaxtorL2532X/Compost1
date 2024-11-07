@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #694c26;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #694B5;
+}
+
+header h1 {
+    font-size: 2em;
+    color: white;
+}
+
+
+.header-img {
+    width: 600px;
+    height: auto;  
+}
+
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #7a5526;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+.content {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button a {
+    background-color: #4b3417;
+}
+
+.back-button a:hover {
+    background-color: #f57c00;
+}
+
+section {
+    background-color: #fff; 
+
+#tipos_abonos header,
+#beneficios_abonos header,
+#compostaje_abonos header {
+    background-color: #009688; }
+
+button, a {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+button {
+    background-color: #7a5526;
+    color: white;
+}
+
+a {
+    background-color: #4b3417;
+    color: white;
+}
+
+button:hover, a:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-button a {
+    background-color: #756240;
+}
+
+.back-button a:hover {
+    background-color: #d36c00;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
